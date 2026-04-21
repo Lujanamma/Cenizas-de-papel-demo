@@ -48,11 +48,13 @@
     <Analyzer Include="D:\Unity\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\EnemyDamage.cs" />
     <Compile Include="Assets\EnemyHealth.cs" />
     <Compile Include="Assets\EnemySpawner.cs" />
     <Compile Include="Assets\PunchHitbox.cs" />
     <Compile Include="Assets\EnemyPatrol.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\CameraFollow.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
