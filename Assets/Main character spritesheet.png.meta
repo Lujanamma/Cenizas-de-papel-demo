@@ -1,0 +1,453 @@
+fileFormatVersion: 2
+guid: 3e10e198f530e01478cfd61742c6f927
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8757179899713810288
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_0
+  - first:
+      213: 2056902088820153910
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_1
+  - first:
+      213: 5301837612676533159
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_2
+  - first:
+      213: 154930932692426262
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_3
+  - first:
+      213: 3767079260082289271
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_4
+  - first:
+      213: 4590107785787347618
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_5
+  - first:
+      213: -7653828608226156811
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_6
+  - first:
+      213: 2033733621161595885
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_7
+  - first:
+      213: 3967348084600936339
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_8
+  - first:
+      213: -6693388705509636013
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_9
+  - first:
+      213: 5186770680932749887
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_10
+  - first:
+      213: -3099443948274872146
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_11
+  - first:
+      213: -3944120456870031343
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_12
+  - first:
+      213: 197948645944160339
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_13
+  - first:
+      213: -472169308196941689
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_14
+  - first:
+      213: -1844357005894989544
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_15
+  - first:
+      213: -3223946291318959468
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_16
+  - first:
+      213: 479345814366804090
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_17
+  - first:
+      213: 7329029558643696406
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_18
+  - first:
+      213: -4218301431997063779
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_19
+  - first:
+      213: -8971309695572980867
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_20
+  - first:
+      213: 1046633552409951974
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_21
+  - first:
+      213: 1993708995354054663
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_22
+  - first:
+      213: 6772949995425837663
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_23
+  - first:
+      213: -4971661806531277711
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_24
+  - first:
+      213: 6328708080946467025
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_25
+  - first:
+      213: -4778252626902513336
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_26
+  - first:
+      213: 4720028858655759017
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_27
+  - first:
+      213: -2427802410921664473
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_28
+  - first:
+      213: -668702445848145027
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_29
+  - first:
+      213: -5422119373230133814
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_30
+  - first:
+      213: -8514832390152079473
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_31
+  - first:
+      213: 8533180820387330007
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_32
+  - first:
+      213: -1823843792459999220
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_33
+  - first:
+      213: 5355386978343081182
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_34
+  - first:
+      213: -7742506302228853982
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_35
+  - first:
+      213: -5782721652825390229
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_36
+  - first:
+      213: 6619335413678597877
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_37
+  - first:
+      213: -2331578690093343304
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_38
+  - first:
+      213: 1536268184287063599
+    second: ChatGPT Image Apr 30, 2026, 06_00_30 PM_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 590
+        width: 217
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0901e5b574f387680800000000000000
+      internalID: -8757179899713810288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumping
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 587
+        width: 236
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492def2eded3243d0800000000000000
+      internalID: -3223946291318959468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walking
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 593
+        width: 217
+        height: 250
+      alignment: 9
+      pivot: {x: 0.514728, y: 0.49999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613ab4f7d81f5b560800000000000000
+      internalID: 7329029558643696406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Running
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 594
+        width: 236
+        height: 250
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d1b4672359575c0800000000000000
+      internalID: -4218301431997063779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Punching
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 215
+        width: 277
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6302608b45afbfa0800000000000000
+      internalID: -5782721652825390229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smash Attack
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 213
+        width: 236
+        height: 265
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6e97dec7a9cdb50800000000000000
+      internalID: 6619335413678597877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hurt
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 218
+        width: 210
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd9d1bd88194afd0800000000000000
+      internalID: -2331578690093343304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 207
+        width: 427
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e2a2c26cbe15510800000000000000
+      internalID: 1536268184287063599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ebb5a4076ba46ec439695303dea595d1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_1: 2056902088820153910
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_10: 5186770680932749887
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_11: -3099443948274872146
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_12: -3944120456870031343
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_13: 197948645944160339
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_14: -472169308196941689
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_15: -1844357005894989544
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_17: 479345814366804090
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_2: 5301837612676533159
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_20: -8971309695572980867
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_21: 1046633552409951974
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_22: 1993708995354054663
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_23: 6772949995425837663
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_24: -4971661806531277711
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_25: 6328708080946467025
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_26: -4778252626902513336
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_27: 4720028858655759017
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_28: -2427802410921664473
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_29: -668702445848145027
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_3: 154930932692426262
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_30: -5422119373230133814
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_31: -8514832390152079473
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_32: 8533180820387330007
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_33: -1823843792459999220
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_34: 5355386978343081182
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_35: -7742506302228853982
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_4: 3767079260082289271
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_5: 4590107785787347618
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_6: -7653828608226156811
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_7: 2033733621161595885
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_8: 3967348084600936339
+      ChatGPT Image Apr 30, 2026, 06_00_30 PM_9: -6693388705509636013
+      Death: 1536268184287063599
+      Hurt: -2331578690093343304
+      Idle: -8757179899713810288
+      Jumping: -3223946291318959468
+      Punching: -5782721652825390229
+      Running: -4218301431997063779
+      Smash Attack: 6619335413678597877
+      Walking: 7329029558643696406
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

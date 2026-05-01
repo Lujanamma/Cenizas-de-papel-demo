@@ -8,15 +8,24 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject punchHitbox;
 
+    // 🔥 Ground check nuevo (REEMPLAZA OnCollision)
+    public Transform groundCheck;
+    public float groundRadius = 0.2f;
+    public LayerMask groundLayer;
+    
+
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isPunching;
+    private bool isHurt;
 
     private PunchHitbox punchScript;
+    private Animator anim;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
 
         if (punchHitbox != null)
         {
@@ -30,12 +39,32 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (isHurt) return;
+
+        // 🔥 reemplazo de OnCollision
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundRadius,
+            groundLayer
+        );
+
         HandleJump();
-        HandlePunch();
+
+        if (Input.GetKeyDown(KeyCode.J) && !isPunching)
+        {
+            anim.SetTrigger("Attack");
+            StartCoroutine(Punch());
+        }
     }
 
     void FixedUpdate()
     {
+        if (isHurt || isPunching)
+        {
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            return;
+        }
+
         float move = Input.GetAxisRaw("Horizontal");
 
         Vector2 velocity = rb.linearVelocity;
@@ -48,17 +77,9 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isHurt)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-        }
-    }
-
-    void HandlePunch()
-    {
-        if (Input.GetKeyDown(KeyCode.J) && !isPunching)
-        {
-            StartCoroutine(Punch());
         }
     }
 
@@ -67,10 +88,8 @@ public class PlayerMovement : MonoBehaviour
         isPunching = true;
 
         float dir = transform.localScale.x;
-
         punchHitbox.transform.localPosition = new Vector3(1.2f * dir, 0f, 0f);
 
-        // 👇 mostrar visual
         if (punchScript != null)
             punchScript.Show();
 
@@ -78,7 +97,6 @@ public class PlayerMovement : MonoBehaviour
 
         yield return new WaitForSeconds(0.2f);
 
-        // 👇 ocultar visual
         if (punchScript != null)
             punchScript.Hide();
 
@@ -87,15 +105,23 @@ public class PlayerMovement : MonoBehaviour
         isPunching = false;
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    public void TakeDamage()
     {
-        if (col.gameObject.CompareTag("Ground"))
-            isGrounded = true;
+        if (isHurt) return;
+
+        StartCoroutine(HurtRoutine());
     }
 
-    void OnCollisionExit2D(Collision2D col)
+    IEnumerator HurtRoutine()
     {
-        if (col.gameObject.CompareTag("Ground"))
-            isGrounded = false;
+        isHurt = true;
+
+        anim.SetTrigger("Hurt");
+
+        rb.linearVelocity = new Vector2(-transform.localScale.x * 3f, rb.linearVelocity.y);
+
+        yield return new WaitForSeconds(0.3f);
+
+        isHurt = false;
     }
 }

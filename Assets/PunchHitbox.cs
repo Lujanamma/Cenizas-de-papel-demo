@@ -5,12 +5,10 @@ public class PunchHitbox : MonoBehaviour
     public int damage = 10;
 
     private bool alreadyHit;
-    private SpriteRenderer sr;
 
     void Awake()
     {
-        sr = GetComponent<SpriteRenderer>();
-        sr.enabled = false; // invisible por defecto
+        // Hitbox invisible: no SpriteRenderer necesario
     }
 
     private void OnEnable()
@@ -20,12 +18,12 @@ public class PunchHitbox : MonoBehaviour
 
     public void Show()
     {
-        sr.enabled = true;
+        // No visual (hitbox invisible por diseño)
     }
 
     public void Hide()
     {
-        sr.enabled = false;
+        // No visual (hitbox invisible por diseño)
     }
 
     private void OnTriggerEnter2D(Collider2D other)

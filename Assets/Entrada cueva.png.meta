@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 975fb5496524acc47b9355e81e96129c
+guid: 255fd7b125817514ebd5dbcc38fd5626
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8596640243658272642
-    second: Enemy_0
+      213: -7327717605791244978
+    second: Entrada cueva_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemy_0
+      name: Entrada cueva_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 225
-        height: 225
+        y: 1
+        width: 1536
+        height: 1023
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28f241131c66d4770800000000000000
-      internalID: 8596640243658272642
+      spriteID: e4ddf6459a7be4a90800000000000000
+      internalID: -7327717605791244978
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Enemy_0: 8596640243658272642
+      Entrada cueva_0: -7327717605791244978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

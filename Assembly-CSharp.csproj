@@ -53,6 +53,7 @@
     <Compile Include="Assets\EnemySpawner.cs" />
     <Compile Include="Assets\PunchHitbox.cs" />
     <Compile Include="Assets\EnemyPatrol.cs" />
+    <Compile Include="Assets\EnemyPunchHitbox.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
   </ItemGroup>

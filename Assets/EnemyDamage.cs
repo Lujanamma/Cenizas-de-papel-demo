@@ -9,6 +9,13 @@ public class EnemyDamage : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             Debug.Log("El jugador recibió daño");
+
+            PlayerMovement player = collision.gameObject.GetComponent<PlayerMovement>();
+
+            if (player != null)
+            {
+                player.TakeDamage();
+            }
         }
     }
 }

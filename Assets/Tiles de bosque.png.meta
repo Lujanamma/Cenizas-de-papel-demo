@@ -1,0 +1,1953 @@
+fileFormatVersion: 2
+guid: 9fe71b66b3dc6054baf8714cc706ec40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7065167319206971390
+    second: Tiles de bosque_0
+  - first:
+      213: -1584951029881053756
+    second: Tiles de bosque_1
+  - first:
+      213: -2828950030221448139
+    second: Tiles de bosque_2
+  - first:
+      213: -8718705967070350825
+    second: Tiles de bosque_3
+  - first:
+      213: 5024447749483629923
+    second: Tiles de bosque_4
+  - first:
+      213: 8583119445210741452
+    second: Tiles de bosque_5
+  - first:
+      213: 2635194788129279688
+    second: Tiles de bosque_6
+  - first:
+      213: -822075038502995719
+    second: Tiles de bosque_7
+  - first:
+      213: 3064799954861436113
+    second: Tiles de bosque_8
+  - first:
+      213: 4244053058233406782
+    second: Tiles de bosque_9
+  - first:
+      213: 2848254046348742084
+    second: Tiles de bosque_10
+  - first:
+      213: -2651049297450607072
+    second: Tiles de bosque_11
+  - first:
+      213: -5656755847254167247
+    second: Tiles de bosque_12
+  - first:
+      213: -7654459472569496780
+    second: Tiles de bosque_13
+  - first:
+      213: 6756562478953542424
+    second: Tiles de bosque_14
+  - first:
+      213: 3702691989214036321
+    second: Tiles de bosque_15
+  - first:
+      213: 1676658773457906915
+    second: Tiles de bosque_16
+  - first:
+      213: 3199859378716425416
+    second: Tiles de bosque_17
+  - first:
+      213: 5417966332425033707
+    second: Tiles de bosque_18
+  - first:
+      213: 719046190054886770
+    second: Tiles de bosque_19
+  - first:
+      213: -4070867097488217630
+    second: Tiles de bosque_20
+  - first:
+      213: 6115553719350242310
+    second: Tiles de bosque_21
+  - first:
+      213: 1209884245686942184
+    second: Tiles de bosque_22
+  - first:
+      213: 4280779793207644808
+    second: Tiles de bosque_23
+  - first:
+      213: -3582832178475202082
+    second: Tiles de bosque_24
+  - first:
+      213: 5080400645481863105
+    second: Tiles de bosque_25
+  - first:
+      213: 8946897347949795924
+    second: Tiles de bosque_26
+  - first:
+      213: 2697391475198813146
+    second: Tiles de bosque_27
+  - first:
+      213: 8021084344961702797
+    second: Tiles de bosque_28
+  - first:
+      213: 7674036875872280074
+    second: Tiles de bosque_29
+  - first:
+      213: 8591155600395839480
+    second: Tiles de bosque_30
+  - first:
+      213: -2180246223407121634
+    second: Tiles de bosque_31
+  - first:
+      213: 8317107532678124445
+    second: Tiles de bosque_32
+  - first:
+      213: -9046032772630558535
+    second: Tiles de bosque_33
+  - first:
+      213: -6444592891580953757
+    second: Tiles de bosque_34
+  - first:
+      213: 3782392785151470938
+    second: Tiles de bosque_35
+  - first:
+      213: -6165413102654124802
+    second: Tiles de bosque_36
+  - first:
+      213: -4361535786665908805
+    second: Tiles de bosque_37
+  - first:
+      213: 1990548018012312117
+    second: Tiles de bosque_38
+  - first:
+      213: 1773872244639931321
+    second: Tiles de bosque_39
+  - first:
+      213: -7060229994286222538
+    second: Tiles de bosque_40
+  - first:
+      213: -5730604288085095583
+    second: Tiles de bosque_41
+  - first:
+      213: 8420657803833979428
+    second: Tiles de bosque_42
+  - first:
+      213: 913468826655338533
+    second: Tiles de bosque_43
+  - first:
+      213: 8071369435738042825
+    second: Tiles de bosque_44
+  - first:
+      213: 2196675247213657486
+    second: Tiles de bosque_45
+  - first:
+      213: 1078655906985614817
+    second: Tiles de bosque_46
+  - first:
+      213: -2140680830896658715
+    second: Tiles de bosque_47
+  - first:
+      213: -1439779736365699825
+    second: Tiles de bosque_48
+  - first:
+      213: -765814257326556150
+    second: Tiles de bosque_49
+  - first:
+      213: 7777211082128019322
+    second: Tiles de bosque_50
+  - first:
+      213: -1062850729165543142
+    second: Tiles de bosque_51
+  - first:
+      213: -1480281726778648880
+    second: Tiles de bosque_52
+  - first:
+      213: 1945064492169643852
+    second: Tiles de bosque_53
+  - first:
+      213: 5889031478249021139
+    second: Tiles de bosque_54
+  - first:
+      213: -1940604259087450837
+    second: Tiles de bosque_55
+  - first:
+      213: -572737078442194347
+    second: Tiles de bosque_56
+  - first:
+      213: -964000003579925995
+    second: Tiles de bosque_57
+  - first:
+      213: 2518812046858568571
+    second: Tiles de bosque_58
+  - first:
+      213: 2995776152928548559
+    second: Tiles de bosque_59
+  - first:
+      213: 8468368875472693685
+    second: Tiles de bosque_60
+  - first:
+      213: -5772005709234769246
+    second: Tiles de bosque_61
+  - first:
+      213: -4464617145867990099
+    second: Tiles de bosque_62
+  - first:
+      213: -4973308296488314865
+    second: Tiles de bosque_63
+  - first:
+      213: 2973362000899712048
+    second: Tiles de bosque_64
+  - first:
+      213: 629903220133773358
+    second: Tiles de bosque_65
+  - first:
+      213: -5349216860500019346
+    second: Tiles de bosque_66
+  - first:
+      213: 1076914546826894700
+    second: Tiles de bosque_67
+  - first:
+      213: -1576859797347887211
+    second: Tiles de bosque_68
+  - first:
+      213: -2588910081518025176
+    second: Tiles de bosque_69
+  - first:
+      213: 8455081908053557291
+    second: Tiles de bosque_70
+  - first:
+      213: 8573055077160760666
+    second: Tiles de bosque_71
+  - first:
+      213: -4599956485272988926
+    second: Tiles de bosque_72
+  - first:
+      213: 3205710336143283926
+    second: Tiles de bosque_73
+  - first:
+      213: -9158865815440551065
+    second: Tiles de bosque_74
+  - first:
+      213: -5086034186547491813
+    second: Tiles de bosque_75
+  - first:
+      213: 7606809990316500795
+    second: Tiles de bosque_76
+  - first:
+      213: -7959569526805718716
+    second: Tiles de bosque_77
+  - first:
+      213: -3668048912069544513
+    second: Tiles de bosque_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tiles de bosque_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 123
+        width: 53
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7c7047e348c0260800000000000000
+      internalID: 7065167319206971390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 126
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cddc8d8f6f110ae0800000000000000
+      internalID: -1584951029881053756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_2
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 845
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ce1599fec8db8d0800000000000000
+      internalID: -2828950030221448139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 127
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71271bbdd1fe00780800000000000000
+      internalID: -8718705967070350825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_5
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 833
+        width: 118
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccab88cf8ad5d1770800000000000000
+      internalID: 8583119445210741452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_6
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 845
+        width: 98
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce086ca2b7129420800000000000000
+      internalID: 2635194788129279688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_7
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 950
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f83057ab176794f0800000000000000
+      internalID: -822075038502995719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_8
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 949
+        width: 147
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc2629225b588a20800000000000000
+      internalID: 3064799954861436113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_9
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 841
+        width: 103
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3599ef35c7e5ea30800000000000000
+      internalID: 4244053058233406782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 848
+        width: 143
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd8fa6e6f7078720800000000000000
+      internalID: 2848254046348742084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_11
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 839
+        width: 109
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e5867b5b4953bd0800000000000000
+      internalID: -2651049297450607072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_12
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 844
+        width: 116
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1313d47178a2f71b0800000000000000
+      internalID: -5656755847254167247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_13
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 836
+        width: 116
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b0fdd2aa5e5c590800000000000000
+      internalID: -7654459472569496780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_14
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 820
+        width: 136
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81332ccd6c124cd50800000000000000
+      internalID: 6756562478953542424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_15
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 831
+        width: 101
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16189c91fba926330800000000000000
+      internalID: 3702691989214036321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_16
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 825
+        width: 99
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec20896540b44710800000000000000
+      internalID: 1676658773457906915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_17
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 820
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc389fb62f286c20800000000000000
+      internalID: 3199859378716425416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_18
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 132
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be758397cab703b40800000000000000
+      internalID: 5417966332425033707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_19
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 689
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc15f33b09af900800000000000000
+      internalID: 719046190054886770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_20
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 133
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9a36671ff5187c0800000000000000
+      internalID: -4070867097488217630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_23
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 699
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882dfc79a82686b30800000000000000
+      internalID: 4280779793207644808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 696
+        width: 100
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed98528cd19374ec0800000000000000
+      internalID: -3582832178475202082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 693
+        width: 126
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c79c9e4875318640800000000000000
+      internalID: 5080400645481863105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_26
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 699
+        width: 183
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a9e6a3cb3c92c70800000000000000
+      internalID: 8946897347949795924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_28
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 656
+        width: 227
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b93e6d6bd905f60800000000000000
+      internalID: 8021084344961702797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_29
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 655
+        width: 82
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e9d9b31e7af7a60800000000000000
+      internalID: 7674036875872280074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_30
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 655
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7a3bb208ae93770800000000000000
+      internalID: 8591155600395839480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_31
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 654
+        width: 142
+        height: 78
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b7eea7c953eb1e0800000000000000
+      internalID: -2180246223407121634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_32
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 115
+        width: 93
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93510c2c3d4c6370800000000000000
+      internalID: 8317107532678124445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_33
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 257
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b840d80f19067280800000000000000
+      internalID: -9046032772630558535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_34
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 695
+        width: 113
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b4f47f8e43096a0800000000000000
+      internalID: -6444592891580953757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_35
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 543
+        width: 131
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d24f7b232cd7430800000000000000
+      internalID: 3782392785151470938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_36
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 543
+        width: 131
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc03cae27d007aa0800000000000000
+      internalID: -6165413102654124802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 555
+        width: 108
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5ef987f46b873c0800000000000000
+      internalID: -4361535786665908805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_38
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 553
+        width: 98
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5325bf140e8df9b10800000000000000
+      internalID: 1990548018012312117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_39
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 545
+        width: 106
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb10ba786f0e9810800000000000000
+      internalID: 1773872244639931321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_40
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 548
+        width: 137
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633f2061a36050e90800000000000000
+      internalID: -7060229994286222538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_41
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 545
+        width: 123
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b8b5413cdc870b0800000000000000
+      internalID: -5730604288085095583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_45
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 260
+        width: 130
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d3015bf782c7e10800000000000000
+      internalID: 2196675247213657486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_46
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 421
+        width: 103
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed11ca15d728fe00800000000000000
+      internalID: 1078655906985614817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_47
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 419
+        width: 100
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6aae84026ca42e0800000000000000
+      internalID: -2140680830896658715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_48
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 440
+        width: 147
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ded1345ffd40ce0800000000000000
+      internalID: -1439779736365699825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_49
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 443
+        width: 133
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cfe1c8df74f55f0800000000000000
+      internalID: -765814257326556150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_50
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 425
+        width: 147
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fc87516443eeb60800000000000000
+      internalID: 7777211082128019322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_51
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 435
+        width: 220
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19a2de94eeff31f0800000000000000
+      internalID: -1062850729165543142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_52
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 431
+        width: 115
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d65bd3cc9bf47be0800000000000000
+      internalID: -1480281726778648880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_53
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 431
+        width: 99
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c474ff8a9d14efa10800000000000000
+      internalID: 1945064492169643852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_54
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 271
+        width: 103
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de50249dea0ab150800000000000000
+      internalID: 5889031478249021139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_55
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 441
+        width: 108
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d7b7745b69115e0800000000000000
+      internalID: -1940604259087450837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_56
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 696
+        width: 93
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a02c169aa3d08f0800000000000000
+      internalID: -572737078442194347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_57
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 271
+        width: 103
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51aa42faa1f2f92f0800000000000000
+      internalID: -964000003579925995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_58
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 265
+        width: 122
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73cafc163e94f220800000000000000
+      internalID: 2518812046858568571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_60
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 281
+        width: 184
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b92689ff90b58570800000000000000
+      internalID: 8468368875472693685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_61
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 285
+        width: 159
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2f88b8367b5efa0800000000000000
+      internalID: -5772005709234769246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_62
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 257
+        width: 113
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab8b624c5e7a02c0800000000000000
+      internalID: -4464617145867990099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_63
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 281
+        width: 91
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f089f4d34724bfab0800000000000000
+      internalID: -4973308296488314865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_64
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 287
+        width: 86
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a54c7cf0834920800000000000000
+      internalID: 2973362000899712048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_65
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 259
+        width: 104
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20c2fe24adddb800800000000000000
+      internalID: 629903220133773358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_66
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 257
+        width: 96
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67bd535b93c3c5b0800000000000000
+      internalID: -5349216860500019346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_67
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 418
+        width: 100
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d51191318f1fe00800000000000000
+      internalID: 1076914546826894700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_69
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 103
+        width: 82
+        height: 106
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826c0bb5ff7521cd0800000000000000
+      internalID: -2588910081518025176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 125
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55b602bb2c99f670800000000000000
+      internalID: 8573055077160760666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_72
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 99
+        width: 90
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2039c01c2fba920c0800000000000000
+      internalID: -4599956485272988926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_73
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 107
+        width: 91
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d65e9ee098fc7c20800000000000000
+      internalID: 3205710336143283926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_74
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 105
+        width: 93
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763923d011c25e080800000000000000
+      internalID: -9158865815440551065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_75
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 115
+        width: 120
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c0853bad6ca69b0800000000000000
+      internalID: -5086034186547491813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_76
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 115
+        width: 130
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3725b23261d09960800000000000000
+      internalID: 7606809990316500795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_77
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 113
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44998bddfade98190800000000000000
+      internalID: -7959569526805718716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiles de bosque_78
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 115
+        width: 90
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb53659d2f8781dc0800000000000000
+      internalID: -3668048912069544513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6642cbd43ae34ea4eae0faaa6b7d8b2c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Tiles de bosque_0: 7065167319206971390
+      Tiles de bosque_1: -1584951029881053756
+      Tiles de bosque_10: 2848254046348742084
+      Tiles de bosque_11: -2651049297450607072
+      Tiles de bosque_12: -5656755847254167247
+      Tiles de bosque_13: -7654459472569496780
+      Tiles de bosque_14: 6756562478953542424
+      Tiles de bosque_15: 3702691989214036321
+      Tiles de bosque_16: 1676658773457906915
+      Tiles de bosque_17: 3199859378716425416
+      Tiles de bosque_18: 5417966332425033707
+      Tiles de bosque_19: 719046190054886770
+      Tiles de bosque_2: -2828950030221448139
+      Tiles de bosque_20: -4070867097488217630
+      Tiles de bosque_21: 6115553719350242310
+      Tiles de bosque_22: 1209884245686942184
+      Tiles de bosque_23: 4280779793207644808
+      Tiles de bosque_24: -3582832178475202082
+      Tiles de bosque_25: 5080400645481863105
+      Tiles de bosque_26: 8946897347949795924
+      Tiles de bosque_27: 2697391475198813146
+      Tiles de bosque_28: 8021084344961702797
+      Tiles de bosque_29: 7674036875872280074
+      Tiles de bosque_3: -8718705967070350825
+      Tiles de bosque_30: 8591155600395839480
+      Tiles de bosque_31: -2180246223407121634
+      Tiles de bosque_32: 8317107532678124445
+      Tiles de bosque_33: -9046032772630558535
+      Tiles de bosque_34: -6444592891580953757
+      Tiles de bosque_35: 3782392785151470938
+      Tiles de bosque_36: -6165413102654124802
+      Tiles de bosque_37: -4361535786665908805
+      Tiles de bosque_38: 1990548018012312117
+      Tiles de bosque_39: 1773872244639931321
+      Tiles de bosque_4: 5024447749483629923
+      Tiles de bosque_40: -7060229994286222538
+      Tiles de bosque_41: -5730604288085095583
+      Tiles de bosque_42: 8420657803833979428
+      Tiles de bosque_43: 913468826655338533
+      Tiles de bosque_44: 8071369435738042825
+      Tiles de bosque_45: 2196675247213657486
+      Tiles de bosque_46: 1078655906985614817
+      Tiles de bosque_47: -2140680830896658715
+      Tiles de bosque_48: -1439779736365699825
+      Tiles de bosque_49: -765814257326556150
+      Tiles de bosque_5: 8583119445210741452
+      Tiles de bosque_50: 7777211082128019322
+      Tiles de bosque_51: -1062850729165543142
+      Tiles de bosque_52: -1480281726778648880
+      Tiles de bosque_53: 1945064492169643852
+      Tiles de bosque_54: 5889031478249021139
+      Tiles de bosque_55: -1940604259087450837
+      Tiles de bosque_56: -572737078442194347
+      Tiles de bosque_57: -964000003579925995
+      Tiles de bosque_58: 2518812046858568571
+      Tiles de bosque_59: 2995776152928548559
+      Tiles de bosque_6: 2635194788129279688
+      Tiles de bosque_60: 8468368875472693685
+      Tiles de bosque_61: -5772005709234769246
+      Tiles de bosque_62: -4464617145867990099
+      Tiles de bosque_63: -4973308296488314865
+      Tiles de bosque_64: 2973362000899712048
+      Tiles de bosque_65: 629903220133773358
+      Tiles de bosque_66: -5349216860500019346
+      Tiles de bosque_67: 1076914546826894700
+      Tiles de bosque_68: -1576859797347887211
+      Tiles de bosque_69: -2588910081518025176
+      Tiles de bosque_7: -822075038502995719
+      Tiles de bosque_70: 8455081908053557291
+      Tiles de bosque_71: 8573055077160760666
+      Tiles de bosque_72: -4599956485272988926
+      Tiles de bosque_73: 3205710336143283926
+      Tiles de bosque_74: -9158865815440551065
+      Tiles de bosque_75: -5086034186547491813
+      Tiles de bosque_76: 7606809990316500795
+      Tiles de bosque_77: -7959569526805718716
+      Tiles de bosque_78: -3668048912069544513
+      Tiles de bosque_8: 3064799954861436113
+      Tiles de bosque_9: 4244053058233406782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
