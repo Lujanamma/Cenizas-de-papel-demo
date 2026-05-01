@@ -10,7 +10,7 @@ public class EnemyPunchHitbox : MonoBehaviour
 
             if (player != null)
             {
-                player.TakeDamage();
+                player.TakeDamage(10);
             }
         }
     }

@@ -1,65 +1,98 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [Header("Movimiento")]
     public float speed = 5f;
     public float jumpForce = 7f;
 
+    [Header("Ataque")]
     public GameObject punchHitbox;
 
-    // 🔥 Ground check nuevo (REEMPLAZA OnCollision)
+    [Header("Ground Check")]
     public Transform groundCheck;
     public float groundRadius = 0.2f;
     public LayerMask groundLayer;
-    
+
+    [Header("Vida")]
+    [SerializeField] private int maxHealth = 120;
+    public int currentHealth;
+    public Image healthBarFill;
 
     private Rigidbody2D rb;
+    private Animator anim;
+    private PunchHitbox punchScript;
+
     private bool isGrounded;
     private bool isPunching;
     private bool isHurt;
+    private bool isDead;
 
-    private PunchHitbox punchScript;
-    private Animator anim;
-
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
-        if (punchHitbox != null)
-        {
-            punchHitbox.transform.SetParent(transform);
-            punchHitbox.transform.localPosition = Vector3.zero;
-            punchHitbox.SetActive(false);
+        // 🔥 asegura consistencia total (evita valores viejos del Inspector)
+        currentHealth = maxHealth;
 
-            punchScript = punchHitbox.GetComponent<PunchHitbox>();
-        }
+        Debug.Log($"[Player] Vida inicial: {currentHealth} / {maxHealth}");
+    }
+
+    void Start()
+    {
+        SetupPunch();
+        UpdateHealthBar();
+    }
+
+    void SetupPunch()
+    {
+        if (punchHitbox == null) return;
+
+        punchHitbox.transform.SetParent(transform);
+        punchHitbox.transform.localPosition = Vector3.zero;
+        punchHitbox.SetActive(false);
+
+        punchScript = punchHitbox.GetComponent<PunchHitbox>();
     }
 
     void Update()
     {
-        if (isHurt) return;
+        if (isHurt || isDead) return;
 
-        // 🔥 reemplazo de OnCollision
+        CheckGround();
+        HandleJump();
+        HandlePunchInput();
+    }
+
+    void CheckGround()
+    {
+        if (groundCheck == null) return;
+
         isGrounded = Physics2D.OverlapCircle(
             groundCheck.position,
             groundRadius,
             groundLayer
         );
+    }
 
-        HandleJump();
-
+    void HandlePunchInput()
+    {
         if (Input.GetKeyDown(KeyCode.J) && !isPunching)
         {
-            anim.SetTrigger("Attack");
+            if (anim != null)
+                anim.SetTrigger("Attack");
+
             StartCoroutine(Punch());
         }
     }
 
     void FixedUpdate()
     {
-        if (isHurt || isPunching)
+        if (isHurt || isPunching || isDead)
         {
             rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             return;
@@ -67,9 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
         float move = Input.GetAxisRaw("Horizontal");
 
-        Vector2 velocity = rb.linearVelocity;
-        velocity.x = move * speed;
-        rb.linearVelocity = velocity;
+        rb.linearVelocity = new Vector2(move * speed, rb.linearVelocity.y);
 
         if (move != 0)
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
@@ -77,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleJump()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isHurt)
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isDead)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
@@ -105,23 +136,68 @@ public class PlayerMovement : MonoBehaviour
         isPunching = false;
     }
 
-    public void TakeDamage()
+    public void TakeDamage(int damage)
     {
-        if (isHurt) return;
+        if (isDead) return;
 
-        StartCoroutine(HurtRoutine());
+        currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        Debug.Log($"💔 Vida actual: {currentHealth} / {maxHealth}");
+
+        UpdateHealthBar();
+
+        if (currentHealth <= 0)
+        {
+            currentHealth = 0;
+            Die();
+            return;
+        }
+
+        if (!isHurt)
+            StartCoroutine(HurtRoutine());
     }
 
     IEnumerator HurtRoutine()
     {
         isHurt = true;
 
-        anim.SetTrigger("Hurt");
+        if (anim != null)
+            anim.SetTrigger("Hurt");
 
         rb.linearVelocity = new Vector2(-transform.localScale.x * 3f, rb.linearVelocity.y);
 
         yield return new WaitForSeconds(0.3f);
 
         isHurt = false;
+    }
+
+    void UpdateHealthBar()
+    {
+        if (healthBarFill == null) return;
+
+        float value = (float)currentHealth / maxHealth;
+        value = Mathf.Clamp01(value);
+
+        healthBarFill.fillAmount = value;
+    }
+
+    void Die()
+    {
+        if (isDead) return;
+
+        isDead = true;
+
+        rb.linearVelocity = Vector2.zero;
+
+        if (anim != null)
+            anim.SetTrigger("Death");
+
+        Invoke(nameof(RestartLevel), 2f);
+    }
+
+    void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
