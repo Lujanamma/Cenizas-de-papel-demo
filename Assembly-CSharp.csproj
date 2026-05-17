@@ -51,6 +51,7 @@
     <Compile Include="Assets\EnemyDamage.cs" />
     <Compile Include="Assets\EnemyHealth.cs" />
     <Compile Include="Assets\EnemySpawner.cs" />
+    <Compile Include="Assets\PlayerSpawnCave.cs" />
     <Compile Include="Assets\PunchHitbox.cs" />
     <Compile Include="Assets\EnemyPatrol.cs" />
     <Compile Include="Assets\EnemyPunchHitbox.cs" />

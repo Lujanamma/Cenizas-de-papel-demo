@@ -12,6 +12,12 @@ public class PlayerMovement : MonoBehaviour
     [Header("Ataque")]
     public GameObject punchHitbox;
 
+    public AudioClip jumpSound;
+public AudioClip punchSound;
+public AudioClip hurtSound;
+
+private AudioSource audioSource;
+
     [Header("Ground Check")]
     public Transform groundCheck;
     public float groundRadius = 0.2f;
@@ -21,6 +27,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int maxHealth = 120;
     public int currentHealth;
     public Image healthBarFill;
+
+    [Header("Interacción")]
+    private bool canEnterCave = false;
+    private float stayTimer = 0f;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -33,10 +43,11 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake()
     {
+        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+audioSource = GetComponentInChildren<AudioSource>();
 
-        // 🔥 asegura consistencia total (evita valores viejos del Inspector)
         currentHealth = maxHealth;
 
         Debug.Log($"[Player] Vida inicial: {currentHealth} / {maxHealth}");
@@ -46,6 +57,11 @@ public class PlayerMovement : MonoBehaviour
     {
         SetupPunch();
         UpdateHealthBar();
+
+        if (PlayerSpawn.spawnPosition != Vector3.zero)
+        {
+            transform.position = PlayerSpawn.spawnPosition;
+        }
     }
 
     void SetupPunch()
@@ -61,12 +77,71 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        // buffer de interacción
+        if (stayTimer > 0)
+            stayTimer -= Time.deltaTime;
+        else
+            canEnterCave = false;
+
         if (isHurt || isDead) return;
 
         CheckGround();
         HandleJump();
         HandlePunchInput();
+        HandleInteraction();
     }
+
+    // =========================
+    // 🧭 INTERACCIÓN CUEVA
+    // =========================
+    void HandleInteraction()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            Debug.Log("APRETE E");
+
+            if (canEnterCave || stayTimer > 0)
+            {
+                Debug.Log("ENTRANDO A LA CUEVA");
+                EnterCave();
+            }
+            else
+            {
+                Debug.Log("NO ESTOY EN LA CUEVA");
+            }
+        }
+    }
+
+    void EnterCave()
+    {
+        SceneManager.LoadScene("CuevaScene");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("ENTRÉ EN TRIGGER: " + other.name);
+
+        if (other.CompareTag("CaveEntrance"))
+        {
+            canEnterCave = true;
+            stayTimer = 0.2f;
+
+            Debug.Log("CaveEntrance detectado");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("CaveEntrance"))
+        {
+        canEnterCave = false;
+        Debug.Log("SALÍ DEL TRIGGER");
+    }
+    }
+
+    // =========================
+    // MOVIMIENTO
+    // =========================
 
     void CheckGround()
     {
@@ -85,6 +160,8 @@ public class PlayerMovement : MonoBehaviour
         {
             if (anim != null)
                 anim.SetTrigger("Attack");
+
+                 audioSource.PlayOneShot(punchSound);
 
             StartCoroutine(Punch());
         }
@@ -136,14 +213,16 @@ public class PlayerMovement : MonoBehaviour
         isPunching = false;
     }
 
+    // =========================
+    // VIDA
+    // =========================
+
     public void TakeDamage(int damage)
     {
         if (isDead) return;
 
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-
-        Debug.Log($"💔 Vida actual: {currentHealth} / {maxHealth}");
 
         UpdateHealthBar();
 
@@ -177,9 +256,7 @@ public class PlayerMovement : MonoBehaviour
         if (healthBarFill == null) return;
 
         float value = (float)currentHealth / maxHealth;
-        value = Mathf.Clamp01(value);
-
-        healthBarFill.fillAmount = value;
+        healthBarFill.fillAmount = Mathf.Clamp01(value);
     }
 
     void Die()

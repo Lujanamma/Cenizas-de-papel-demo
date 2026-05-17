@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 8051df5e531f30d4c8061b702002f46c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7829129857869188341
+    second: Entrada cueva interior_0
+  - first:
+      213: 1766139417169436126
+    second: Entrada cueva interior_1
+  - first:
+      213: -6565313215539133307
+    second: Entrada cueva interior_2
+  - first:
+      213: 1933971271159324677
+    second: Entrada cueva interior_3
+  - first:
+      213: 3714006105420666855
+    second: Entrada cueva interior_4
+  - first:
+      213: 7986700028660997485
+    second: Entrada cueva interior_5
+  - first:
+      213: 3904350951872607367
+    second: Entrada cueva interior_6
+  - first:
+      213: -2397178496604727802
+    second: Entrada cueva interior_7
+  - first:
+      213: -6092619216524990381
+    second: Entrada cueva interior_8
+  - first:
+      213: 1068822839552269683
+    second: Entrada cueva interior_9
+  - first:
+      213: 4578045681720558566
+    second: Entrada cueva interior_10
+  - first:
+      213: -2993594096586108923
+    second: Entrada cueva interior_11
+  - first:
+      213: 7082335902850602101
+    second: Entrada cueva interior_12
+  - first:
+      213: 7659877295506151468
+    second: Entrada cueva interior_13
+  - first:
+      213: 3837290282890118158
+    second: Entrada cueva interior_14
+  - first:
+      213: -8310433730858068441
+    second: Entrada cueva interior_15
+  - first:
+      213: -6355627128738111925
+    second: Entrada cueva interior_16
+  - first:
+      213: 2889598606053549040
+    second: Entrada cueva interior_17
+  - first:
+      213: -5179899407335359241
+    second: Entrada cueva interior_18
+  - first:
+      213: -7218211516260464809
+    second: Entrada cueva interior_19
+  - first:
+      213: -5322395175833720009
+    second: Entrada cueva interior_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 90c6cb33ec055b641b9b175975eb5cb5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Entrada cueva interior_0: 7829129857869188341
+      Entrada cueva interior_1: 1766139417169436126
+      Entrada cueva interior_10: 4578045681720558566
+      Entrada cueva interior_11: -2993594096586108923
+      Entrada cueva interior_12: 7082335902850602101
+      Entrada cueva interior_13: 7659877295506151468
+      Entrada cueva interior_14: 3837290282890118158
+      Entrada cueva interior_15: -8310433730858068441
+      Entrada cueva interior_16: -6355627128738111925
+      Entrada cueva interior_17: 2889598606053549040
+      Entrada cueva interior_18: -5179899407335359241
+      Entrada cueva interior_19: -7218211516260464809
+      Entrada cueva interior_2: -6565313215539133307
+      Entrada cueva interior_20: -5322395175833720009
+      Entrada cueva interior_3: 1933971271159324677
+      Entrada cueva interior_4: 3714006105420666855
+      Entrada cueva interior_5: 7986700028660997485
+      Entrada cueva interior_6: 3904350951872607367
+      Entrada cueva interior_7: -2397178496604727802
+      Entrada cueva interior_8: -6092619216524990381
+      Entrada cueva interior_9: 1068822839552269683
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
