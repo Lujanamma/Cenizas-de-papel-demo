@@ -2,6 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,10 +14,10 @@ public class PlayerMovement : MonoBehaviour
     public GameObject punchHitbox;
 
     public AudioClip jumpSound;
-public AudioClip punchSound;
-public AudioClip hurtSound;
+    public AudioClip punchSound;
+    public AudioClip hurtSound;
 
-private AudioSource audioSource;
+    private AudioSource audioSource;
 
     [Header("Ground Check")]
     public Transform groundCheck;
@@ -27,6 +28,10 @@ private AudioSource audioSource;
     [SerializeField] private int maxHealth = 120;
     public int currentHealth;
     public Image healthBarFill;
+
+    [Header("Monedas")]
+    public int coins = 0;
+    public TMP_Text coinsText;
 
     [Header("Interacción")]
     private bool canEnterCave = false;
@@ -43,41 +48,40 @@ private AudioSource audioSource;
 
     void Awake()
     {
-        
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-audioSource = GetComponentInChildren<AudioSource>();
+        audioSource = GetComponentInChildren<AudioSource>();
 
         currentHealth = maxHealth;
-
-        Debug.Log($"[Player] Vida inicial: {currentHealth} / {maxHealth}");
     }
 
-    void Start()
+void Start()
+{
+    SetupPunch();
+    UpdateHealthBar();
+    UpdateCoinsUI();
+
+    // Prueba temporal
+    coinsText.fontSize = 60;
+    coinsText.color = Color.red;
+    coinsText.text = "Monedas: 0";
+
+    if (coinsText != null)
     {
-        SetupPunch();
-        UpdateHealthBar();
-
-        if (PlayerSpawn.spawnPosition != Vector3.zero)
-        {
-            transform.position = PlayerSpawn.spawnPosition;
-        }
+        coinsText.enabled = true;
+        coinsText.gameObject.SetActive(true);
     }
 
-    void SetupPunch()
+    if (PlayerSpawn.spawnPosition != Vector3.zero)
     {
-        if (punchHitbox == null) return;
-
-        punchHitbox.transform.SetParent(transform);
-        punchHitbox.transform.localPosition = Vector3.zero;
-        punchHitbox.SetActive(false);
-
-        punchScript = punchHitbox.GetComponent<PunchHitbox>();
+        transform.position = PlayerSpawn.spawnPosition;
     }
+
+    Debug.Log("coinsText = " + coinsText);
+}
 
     void Update()
     {
-        // buffer de interacción
         if (stayTimer > 0)
             stayTimer -= Time.deltaTime;
         else
@@ -89,82 +93,7 @@ audioSource = GetComponentInChildren<AudioSource>();
         HandleJump();
         HandlePunchInput();
         HandleInteraction();
-    }
-
-    // =========================
-    // 🧭 INTERACCIÓN CUEVA
-    // =========================
-    void HandleInteraction()
-    {
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            Debug.Log("APRETE E");
-
-            if (canEnterCave || stayTimer > 0)
-            {
-                Debug.Log("ENTRANDO A LA CUEVA");
-                EnterCave();
-            }
-            else
-            {
-                Debug.Log("NO ESTOY EN LA CUEVA");
-            }
-        }
-    }
-
-    void EnterCave()
-    {
-        SceneManager.LoadScene("CuevaScene");
-    }
-
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        Debug.Log("ENTRÉ EN TRIGGER: " + other.name);
-
-        if (other.CompareTag("CaveEntrance"))
-        {
-            canEnterCave = true;
-            stayTimer = 0.2f;
-
-            Debug.Log("CaveEntrance detectado");
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("CaveEntrance"))
-        {
-        canEnterCave = false;
-        Debug.Log("SALÍ DEL TRIGGER");
-    }
-    }
-
-    // =========================
-    // MOVIMIENTO
-    // =========================
-
-    void CheckGround()
-    {
-        if (groundCheck == null) return;
-
-        isGrounded = Physics2D.OverlapCircle(
-            groundCheck.position,
-            groundRadius,
-            groundLayer
-        );
-    }
-
-    void HandlePunchInput()
-    {
-        if (Input.GetKeyDown(KeyCode.J) && !isPunching)
-        {
-            if (anim != null)
-                anim.SetTrigger("Attack");
-
-                 audioSource.PlayOneShot(punchSound);
-
-            StartCoroutine(Punch());
-        }
+   
     }
 
     void FixedUpdate()
@@ -183,11 +112,47 @@ audioSource = GetComponentInChildren<AudioSource>();
             transform.localScale = new Vector3(Mathf.Sign(move), 1, 1);
     }
 
+    // =========================
+    // MOVIMIENTO / SALTO
+    // =========================
+
+    void CheckGround()
+    {
+        if (groundCheck == null) return;
+
+        isGrounded = Physics2D.OverlapCircle(
+            groundCheck.position,
+            groundRadius,
+            groundLayer
+        );
+    }
+
     void HandleJump()
     {
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isDead)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+            if (audioSource && jumpSound)
+                audioSource.PlayOneShot(jumpSound);
+        }
+    }
+
+    // =========================
+    // ATAQUE
+    // =========================
+
+    void HandlePunchInput()
+    {
+        if (Input.GetKeyDown(KeyCode.J) && !isPunching)
+        {
+            if (anim != null)
+                anim.SetTrigger("Attack");
+
+            if (audioSource && punchSound)
+                audioSource.PlayOneShot(punchSound);
+
+            StartCoroutine(Punch());
         }
     }
 
@@ -213,10 +178,78 @@ audioSource = GetComponentInChildren<AudioSource>();
         isPunching = false;
     }
 
+    void SetupPunch()
+    {
+        if (punchHitbox == null) return;
+
+        punchHitbox.transform.SetParent(transform);
+        punchHitbox.transform.localPosition = Vector3.zero;
+        punchHitbox.SetActive(false);
+
+        punchScript = punchHitbox.GetComponent<PunchHitbox>();
+    }
+
     // =========================
-    // VIDA
+    // INTERACCIÓN CUEVA
     // =========================
 
+    void HandleInteraction()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (canEnterCave || stayTimer > 0)
+            {
+                EnterCave();
+            }
+        }
+    }
+
+    void EnterCave()
+    {
+        SceneManager.LoadScene("CuevaScene");
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("CaveEntrance"))
+        {
+            canEnterCave = true;
+            stayTimer = 0.2f;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("CaveEntrance"))
+        {
+            canEnterCave = false;
+        }
+    }
+
+    // =========================
+    // 💰 MONEDAS (FIX REAL)
+    // =========================
+
+    public void AddCoin()
+    {
+        coins++;
+        UpdateCoinsUI();
+    }
+
+  void UpdateCoinsUI()
+{
+    Debug.Log("UpdateCoinsUI ejecutado");
+
+    if (coinsText != null)
+    {
+        coinsText.text = $"Monedas: {coins}";
+        Debug.Log("Texto actual: " + coinsText.text);
+    }
+    else
+    {
+        Debug.Log("coinsText es NULL");
+    }
+}
     public void TakeDamage(int damage)
     {
         if (isDead) return;
@@ -228,13 +261,12 @@ audioSource = GetComponentInChildren<AudioSource>();
 
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
             Die();
-            return;
         }
-
-        if (!isHurt)
+        else if (!isHurt)
+        {
             StartCoroutine(HurtRoutine());
+        }
     }
 
     IEnumerator HurtRoutine()
