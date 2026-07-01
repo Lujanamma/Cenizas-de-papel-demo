@@ -8,7 +8,7 @@ public class PunchHitbox : MonoBehaviour
 
     void Awake()
     {
-        // Hitbox invisible: no SpriteRenderer necesario
+       
     }
 
     private void OnEnable()
@@ -18,12 +18,12 @@ public class PunchHitbox : MonoBehaviour
 
     public void Show()
     {
-        // No visual (hitbox invisible por diseño)
+      
     }
 
     public void Hide()
     {
-        // No visual (hitbox invisible por diseño)
+   
     }
 
     private void OnTriggerEnter2D(Collider2D other)
